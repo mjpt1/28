@@ -1,0 +1,18 @@
+{
+    "type": "lcdwiki-es3c28p",
+    "target": "esp32s3",
+    "builds": [
+        {
+            "name": "lcdwiki-es3c28p",
+            "sdkconfig_append": [
+                "CONFIG_BOARD_TYPE_LCDWIKI_ES3C28P=y",
+                "CONFIG_LANGUAGE_FA_IR=y",
+                "CONFIG_USE_CUSTOM_WAKE_WORD=y",
+                "CONFIG_CUSTOM_WAKE_WORD=\"mo mo\"",
+                "CONFIG_CUSTOM_WAKE_WORD_DISPLAY=\"مومو\"",
+                "CONFIG_SR_MN_CN_MULTINET7_QUANT=y",
+                "CONFIG_FATFS_API_ENCODING_UTF_8=y"
+            ]
+        }
+    ]
+}
